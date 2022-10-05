@@ -1,0 +1,6 @@
+type Account @entity {
+  id: ID!
+  address: Bytes!
+  balance: BigInt!
+  transactionCount: Int!
+}
