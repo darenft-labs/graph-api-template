@@ -1,6 +1,6 @@
 specVersion: 0.0.4
-description: BEP20 tracker boilerplate
-repository: https://google.com
+description: Graph API boilerplate
+repository: https://github.com/darenft-labs/graph-api-template
 
 schema:
   file: ./schema.graphql

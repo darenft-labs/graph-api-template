@@ -8,7 +8,9 @@
     "compile": "hardhat compile",
     "test": "hardhat test",
     "deploy": "hardhat deploy",
-    "node": "hardhat node"
+    "node": "hardhat node",
+    "create-local": "graph create darenft/graph-api-template --node http://127.0.0.1:8020",
+    "deploy-local": "graph deploy darenft/graph-api-template --ipfs http://127.0.0.1:5001 --node http://127.0.0.1:8020"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "1.0.3",
