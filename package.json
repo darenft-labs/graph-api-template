@@ -9,6 +9,7 @@
     "test": "hardhat test",
     "deploy": "hardhat deploy",
     "node": "hardhat node",
+    "codegen": "graph codegen",
     "create-local": "graph create darenft/graph-api-template --node http://127.0.0.1:8020",
     "deploy-local": "graph deploy darenft/graph-api-template --ipfs http://127.0.0.1:5001 --node http://127.0.0.1:8020"
   },
@@ -38,6 +39,8 @@
     "typescript": "4.8.4"
   },
   "dependencies": {
+    "@graphprotocol/graph-cli": "0.34.0",
+    "@graphprotocol/graph-ts": "0.28.0",
     "@nomicfoundation/hardhat-toolbox": "2.0.0",
     "@openzeppelin/contracts": "4.7.3"
   }

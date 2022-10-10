@@ -11,3 +11,6 @@ typechain-types/
 
 .DS_Store
 thumb.db
+data/
+generated/
+build/
