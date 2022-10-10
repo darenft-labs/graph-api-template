@@ -15,11 +15,11 @@ async function main() {
 
   // We get the contract to deploy
   const TokenplayToken = await ethers.getContractFactory("TokenplayToken");
-  const tToken = await TokenplayToken.deploy();
+  const tToken = await TokenplayToken.deploy(ethers.utils.parseEther("40000"));
 
   await tToken.deployed();
 
-  console.log("Greeter deployed to:", tToken.address);
+  console.log("TokenplayToken deployed to:", tToken.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
